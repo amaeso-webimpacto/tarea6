@@ -424,7 +424,7 @@
 
 
 
-    <!--INTENTO CARROUSEL-->
+   
 <!--inicio ficha producto-->
         <section id="wrapper" class="l-wrapper">
         
@@ -532,11 +532,11 @@
           
             
               <h1 id="h1x"><strong>Astro A10 Auriculares Gaming Negro/Azul para PS4/Xbox One/PC</strong></h1>
-              {block name='page_title'}{$product.name}{/block}
+            
           
           <!--PRECIOS-->
               <div class="product-prices">
-      <div class="product__product-price product-price has-discount">
+                 <div class="product__product-price product-price has-discount">
       
                         <span class="product-discount">
                   
@@ -599,7 +599,7 @@
 
                     <!--ELECCION CANTIDAD-->
                     <div class="product-quantity row align-items-center no-gutters">
-                      <label for="quantity_wanted" class="quantity__label col-auto">Cantidad</label>
+                      <label for="quantity_wanted" class="quantity__label col-auto"><b>Cantidad:</b></label>
                       <div class="qty col-auto">
                         <input
                           type="number"
@@ -693,6 +693,9 @@ Añadir al carrito
     -->
     
   </div>
+
+  <div class="row">
+  <div class="col-lg-9">
           <!--caja DESCRIPCION (PESTAÑAS)-->
   
       <div class="tabs product-tabs card card-block">
@@ -833,10 +836,7 @@ Añadir al carrito
                 </div>
     </div>          
 
-
-          </div>
-      </div>
-    </div>
+    
     <!--imagen-->
       <div class="modal fade js-product-images-modal" id="product-modal">
     <div class="modal-dialog modal-lg" role="document">
@@ -851,17 +851,18 @@ Añadir al carrito
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-  
+</div>
 
-<div class="col-lg-12"></div>
+<div class="col-lg-3">
 <!--NEWSLETTER-->
-<div class="container">
+<div class="container" style="padding: 2,5%;">
   <div class="row">
     
-      <div class="block_newsletter col-lg-8 col-12">
+      <div class="block_newsletter col-lg-12 col-12"></div>
   <div class="row">
-    <p id="block-newsletter-label" class="col-lg-5 col-12">Infórmese de nuestras últimas noticias y ofertas especiales</p>
-    <div class="col-lg-7 col-12">
+    <!--el siguiente col-lg es el que se pone a 12 (por defecto esta a 5 -->
+    <p id="block-newsletter-label" class="col-lg-12 col-12">Infórmese de nuestras últimas noticias y ofertas especiales</p>
+    <div class="col-lg-12 col-12">
       <form action="http://localhost/presta_1_7/index.php#footer" method="post" class="needs-validation">
         <input type="hidden" name="action" value="0">
         <div class="input-group">
@@ -870,12 +871,12 @@ Añadir al carrito
                   class="form-control"
                   type="email"
                   value=""
-                  placeholder="Su dirección de correo electrónico"
+                  placeholder="Su dirección de correo"
                   aria-labelledby="block-newsletter-label"
                   autocomplete="email"
           >
           <div class="input-group-append">
-            <button class="btn btn-primary" type="submit" name="submitNewsletter"><span class="d-none d-sm-inline">Suscribirse</span><span class="d-inline d-sm-none">OK</span></button>
+            <button class="btn btn-primary" type="submit" name="submitNewsletter" style="background-color:#ff6000;"><span class="d-none d-sm-inline">Suscribirse</span><span class="d-inline d-sm-none">OK</span></button>
           </div>
         </div>
 
@@ -892,9 +893,12 @@ Añadir al carrito
         </div>
 
 
-    
+      </div>
   </div>
   <!--FIN NEWSLETTER-->
+</div>
+</div>
+
 </div>
 
 <!--FOOTER-->    
