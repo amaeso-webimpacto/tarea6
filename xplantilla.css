@@ -1,0 +1,65 @@
+#h1x,ul,li,p,b {
+    font-family:'Montserrat', sans-serif;
+    text-align: justify;
+    margin-left: 5pt;
+
+}
+
+li{
+    color: #888;
+}
+ h1{
+     text-transform: none  !important; 
+ }
+
+#addinfo
+{
+    color: #727171;
+}
+
+
+#prom0{
+    float: left;
+    width: 25%;
+}
+#prom{
+    float: left;
+    width: 75%;
+    color: #ff6000;
+    background-color: #ffeac9;
+    border-style: dashed;
+    border-color: #ff6000;
+    border-width: thin;
+    cursor: pointer;
+}
+
+#stock0{
+    float: left;
+    width: 25%;
+}
+
+#stock{
+    width: 75%;
+    color: #458057;
+    background-color: #d6eed1;
+    border-style: dashed;
+    border-color: #458057;
+    border-width: thin;
+    cursor: pointer;
+}
+
+h2:after {
+    background: #ff6000;
+    content: "";
+    display: block;
+    height: 2px;
+    margin: .74rem 0 0;
+    width: 2.5rem;
+}
+
+#lista3 {
+    text-indent: 2em; 
+}
+
+
+
